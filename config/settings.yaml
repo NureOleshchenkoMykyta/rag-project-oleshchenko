@@ -1,0 +1,29 @@
+project:
+  name: "SE-RAG"
+  description: "Software Engineering Architecture & Design Assistant"
+
+corpus:
+  source: "Software Engineering Stack Exchange (Archive.org Data Dump)"
+  license: "CC BY-SA 4.0"
+  target_docs: 3000
+  chunk_size_words: 300
+  chunk_overlap_words: 50
+
+embeddings:
+  provider: "sentence-transformers"
+  model_name: "all-MiniLM-L6-v2"
+  dimension: 384
+
+vector_store:
+  provider: "chromadb"
+  persist_directory: "data/chroma_db"
+  collection_name: "se_stackexchange"
+
+retrieval:
+  top_k: 5
+  rrf_k: 60
+
+generation:
+  provider: "ollama"
+  model_name: "qwen2.5:3b"
+  temperature: 0.1

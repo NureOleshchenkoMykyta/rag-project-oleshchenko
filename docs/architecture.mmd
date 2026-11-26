@@ -1,0 +1,13 @@
+flowchart TB
+    subgraph Offline["Офлайн-контур підготовки даних"]
+        direction TB
+        RawData[("Корпус SE Stack Exchange")] --> Ingestion["Пайплайн прийому даних<br/>(очищення, чанкування, ембединги)"]
+        Ingestion --> VectorDB[("Векторний індекс<br/>ChromaDB")]
+    end
+
+    User(["Користувач"]) -->|1. Запит| CLI["Інтерфейс користувача<br/>(CLI)"]
+    CLI -->|2. Текст запиту| Retriever["Ретривер<br/>(Retriever + Embeddings)"]
+    Retriever <-->|3. Пошук top-K| VectorDB
+    Retriever -->|4. Чанки та метадані| LLM["Модель генерації<br/>(Ollama: qwen2.5:3b)"]
+    LLM -->|5. Відповідь і цитати| CLI
+    CLI -->|6. Перевірена відповідь| User
