@@ -1,0 +1,20 @@
+{"query_id": "q01", "query": "When are in-code comments considered a code smell versus helpful?", "relevant_chunk_ids": ["se_1_c0"], "category": "code_quality"}
+{"query_id": "q02", "query": "What roles and skills are needed in a web development team besides core programming?", "relevant_chunk_ids": ["se_18_c0"], "category": "team_and_process"}
+{"query_id": "q03", "query": "What factors determine how much effort to allocate across phases of a waterfall project?", "relevant_chunk_ids": ["se_38_c0"], "category": "project_management"}
+{"query_id": "q04", "query": "What are the pros and prospects of the Actor Model for concurrent programming?", "relevant_chunk_ids": ["se_177_c0"], "category": "concurrency"}
+{"query_id": "q05", "query": "Why is test coverage alone not a sufficient indicator of code quality?", "relevant_chunk_ids": ["se_192_c0"], "category": "testing"}
+{"query_id": "q06", "query": "How do condition coverage, loop coverage, and boundary-value analysis help in testing?", "relevant_chunk_ids": ["se_192_c1", "se_192_c2"], "category": "testing"}
+{"query_id": "q07", "query": "What is mutation testing and how does defect clustering affect test strategy?", "relevant_chunk_ids": ["se_192_c3"], "category": "testing"}
+{"query_id": "q08", "query": "In which parts of a codebase does TDD have low ROI and when should it be avoided?", "relevant_chunk_ids": ["se_206_c0"], "category": "tdd"}
+{"query_id": "q09", "query": "How can a solo developer apply Agile practices effectively?", "relevant_chunk_ids": ["se_220_c0"], "category": "agile"}
+{"query_id": "q10", "query": "When is the Singleton pattern justified and when does it become an anti-pattern?", "relevant_chunk_ids": ["se_252_c0"], "category": "design_patterns"}
+{"query_id": "q11", "query": "What should a junior developer look for and learn when joining an open source project?", "relevant_chunk_ids": ["se_294_c0", "se_294_c1"], "category": "engineering_practices"}
+{"query_id": "q12", "query": "What trade-offs exist between functional programming, threads, and the Actor Model in language design?", "relevant_chunk_ids": ["se_487_c0"], "category": "languages_and_paradigms"}
+{"query_id": "q13", "query": "How can developers handle unclear requirements and give realistic task estimates?", "relevant_chunk_ids": ["se_648_c0", "se_648_c1"], "category": "estimation"}
+{"query_id": "q14", "query": "What are the main arguments for and against using test-driven development?", "relevant_chunk_ids": ["se_678_c0"], "category": "tdd"}
+{"query_id": "q15", "query": "Why should teams avoid frequent deployments to production or test environments?", "relevant_chunk_ids": ["se_843_c0"], "category": "deployment_and_ops"}
+{"query_id": "q16", "query": "How do you manage changing requirements and negotiate scope in an Agile team?", "relevant_chunk_ids": ["se_874_c0", "se_874_c1"], "category": "agile"}
+{"query_id": "q17", "query": "What are the drawbacks of C/C++ macros compared to typed functions?", "relevant_chunk_ids": ["se_937_c0"], "category": "languages_and_paradigms"}
+{"query_id": "q18", "query": "How can cross-cutting concerns be handled without aspect-oriented programming?", "relevant_chunk_ids": ["se_1060_c0"], "category": "architecture"}
+{"query_id": "q19", "query": "How do you balance code conciseness and readability when using language shortcuts?", "relevant_chunk_ids": ["se_1090_c0"], "category": "code_quality"}
+{"query_id": "q20", "query": "How does Planning Poker work for estimating iteration tasks?", "relevant_chunk_ids": ["se_1135_c0"], "category": "estimation"}
